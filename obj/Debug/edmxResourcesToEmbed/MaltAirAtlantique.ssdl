@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MaltAirAtlantiqueModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmployeeFormations">
+    <Key>
+      <PropertyRef Name="EmployeeFormationID" />
+    </Key>
+    <Property Name="EmployeeFormationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeConcerne_Matricule" Type="nvarchar" MaxLength="128" />
+    <Property Name="FormationConcerne_FormationID" Type="int" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="Matricule" />
+    </Key>
+    <Property Name="Matricule" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Nom" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Prenom" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="PosteAttribuer_PosteID" Type="int" />
+  </EntityType>
+  <EntityType Name="Formations">
+    <Key>
+      <PropertyRef Name="FormationID" />
+    </Key>
+    <Property Name="FormationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="DureeEnHeure" Type="real" Nullable="false" />
+    <Property Name="DureeDeValidite" Type="int" />
+  </EntityType>
+  <EntityType Name="OrganismeFormations">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Prix" Type="float" Nullable="false" />
+    <Property Name="FormationConcerne_FormationID" Type="int" />
+    <Property Name="OrganismeConcerne_OrganismeID" Type="int" />
+  </EntityType>
+  <EntityType Name="Organismes">
+    <Key>
+      <PropertyRef Name="OrganismeID" />
+    </Key>
+    <Property Name="OrganismeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="ContactNom" Type="nvarchar(max)" />
+    <Property Name="ContactMail" Type="nvarchar(max)" />
+    <Property Name="LienInternet" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="PosteFormations">
+    <Key>
+      <PropertyRef Name="PosteFormationID" />
+    </Key>
+    <Property Name="PosteFormationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FormationConcerne_FormationID" Type="int" />
+    <Property Name="PosteConcerne_PosteID" Type="int" />
+  </EntityType>
+  <EntityType Name="Postes">
+    <Key>
+      <PropertyRef Name="PosteID" />
+    </Key>
+    <Property Name="PosteID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nom" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="SessionEmployees">
+    <Key>
+      <PropertyRef Name="SessionEmployeesID" />
+    </Key>
+    <Property Name="SessionEmployeesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeConcerne_Matricule" Type="nvarchar" MaxLength="128" />
+    <Property Name="SessionConcerne_SessionID" Type="int" />
+  </EntityType>
+  <EntityType Name="Sessions">
+    <Key>
+      <PropertyRef Name="SessionID" />
+    </Key>
+    <Property Name="SessionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateDebut" Type="datetime" Nullable="false" />
+    <Property Name="DateFin" Type="datetime" Nullable="false" />
+    <Property Name="NbrPlaceTotal" Type="int" Nullable="false" />
+    <Property Name="Lieu" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="OrganismeFomationConcerne_ID" Type="int" />
+    <Property Name="SessionValider" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_EmployeeFormations_dbo_Employees_EmployeeConcerne_Matricule">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="EmployeeFormations" Type="Self.EmployeeFormations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="Matricule" />
+      </Principal>
+      <Dependent Role="EmployeeFormations">
+        <PropertyRef Name="EmployeeConcerne_Matricule" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_EmployeeFormations_dbo_Formations_FormationConcerne_FormationID">
+    <End Role="Formations" Type="Self.Formations" Multiplicity="0..1" />
+    <End Role="EmployeeFormations" Type="Self.EmployeeFormations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formations">
+        <PropertyRef Name="FormationID" />
+      </Principal>
+      <Dependent Role="EmployeeFormations">
+        <PropertyRef Name="FormationConcerne_FormationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Employees_dbo_Postes_PosteAttribuer_PosteID">
+    <End Role="Postes" Type="Self.Postes" Multiplicity="0..1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Postes">
+        <PropertyRef Name="PosteID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="PosteAttribuer_PosteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_OrganismeFormations_dbo_Formations_FormationConcerne_FormationID">
+    <End Role="Formations" Type="Self.Formations" Multiplicity="0..1" />
+    <End Role="OrganismeFormations" Type="Self.OrganismeFormations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formations">
+        <PropertyRef Name="FormationID" />
+      </Principal>
+      <Dependent Role="OrganismeFormations">
+        <PropertyRef Name="FormationConcerne_FormationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_OrganismeFormations_dbo_Organismes_OrganismeConcerne_OrganismeID">
+    <End Role="Organismes" Type="Self.Organismes" Multiplicity="0..1" />
+    <End Role="OrganismeFormations" Type="Self.OrganismeFormations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organismes">
+        <PropertyRef Name="OrganismeID" />
+      </Principal>
+      <Dependent Role="OrganismeFormations">
+        <PropertyRef Name="OrganismeConcerne_OrganismeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_PosteFormations_dbo_Formations_FormationConcerne_FormationID">
+    <End Role="Formations" Type="Self.Formations" Multiplicity="0..1" />
+    <End Role="PosteFormations" Type="Self.PosteFormations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formations">
+        <PropertyRef Name="FormationID" />
+      </Principal>
+      <Dependent Role="PosteFormations">
+        <PropertyRef Name="FormationConcerne_FormationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_PosteFormations_dbo_Postes_PosteConcerne_PosteID">
+    <End Role="Postes" Type="Self.Postes" Multiplicity="0..1" />
+    <End Role="PosteFormations" Type="Self.PosteFormations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Postes">
+        <PropertyRef Name="PosteID" />
+      </Principal>
+      <Dependent Role="PosteFormations">
+        <PropertyRef Name="PosteConcerne_PosteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_SessionEmployees_dbo_Employees_EmployeeConcerne_Matricule">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="SessionEmployees" Type="Self.SessionEmployees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="Matricule" />
+      </Principal>
+      <Dependent Role="SessionEmployees">
+        <PropertyRef Name="EmployeeConcerne_Matricule" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_SessionEmployees_dbo_Sessions_SessionConcerne_SessionID">
+    <End Role="Sessions" Type="Self.Sessions" Multiplicity="0..1" />
+    <End Role="SessionEmployees" Type="Self.SessionEmployees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sessions">
+        <PropertyRef Name="SessionID" />
+      </Principal>
+      <Dependent Role="SessionEmployees">
+        <PropertyRef Name="SessionConcerne_SessionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Sessions_dbo_OrganismeFormations_OrganismeFomationConcerne_ID">
+    <End Role="OrganismeFormations" Type="Self.OrganismeFormations" Multiplicity="0..1" />
+    <End Role="Sessions" Type="Self.Sessions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrganismeFormations">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Sessions">
+        <PropertyRef Name="OrganismeFomationConcerne_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="instpdw" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="pdw">
+    <Parameter Name="DatabaseName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <EntityContainer Name="MaltAirAtlantiqueModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmployeeFormations" EntityType="Self.EmployeeFormations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Formations" EntityType="Self.Formations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrganismeFormations" EntityType="Self.OrganismeFormations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Organismes" EntityType="Self.Organismes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PosteFormations" EntityType="Self.PosteFormations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Postes" EntityType="Self.Postes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SessionEmployees" EntityType="Self.SessionEmployees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sessions" EntityType="Self.Sessions" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_EmployeeFormations_dbo_Employees_EmployeeConcerne_Matricule" Association="Self.FK_dbo_EmployeeFormations_dbo_Employees_EmployeeConcerne_Matricule">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="EmployeeFormations" EntitySet="EmployeeFormations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_EmployeeFormations_dbo_Formations_FormationConcerne_FormationID" Association="Self.FK_dbo_EmployeeFormations_dbo_Formations_FormationConcerne_FormationID">
+      <End Role="Formations" EntitySet="Formations" />
+      <End Role="EmployeeFormations" EntitySet="EmployeeFormations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Employees_dbo_Postes_PosteAttribuer_PosteID" Association="Self.FK_dbo_Employees_dbo_Postes_PosteAttribuer_PosteID">
+      <End Role="Postes" EntitySet="Postes" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_OrganismeFormations_dbo_Formations_FormationConcerne_FormationID" Association="Self.FK_dbo_OrganismeFormations_dbo_Formations_FormationConcerne_FormationID">
+      <End Role="Formations" EntitySet="Formations" />
+      <End Role="OrganismeFormations" EntitySet="OrganismeFormations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_OrganismeFormations_dbo_Organismes_OrganismeConcerne_OrganismeID" Association="Self.FK_dbo_OrganismeFormations_dbo_Organismes_OrganismeConcerne_OrganismeID">
+      <End Role="Organismes" EntitySet="Organismes" />
+      <End Role="OrganismeFormations" EntitySet="OrganismeFormations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_PosteFormations_dbo_Formations_FormationConcerne_FormationID" Association="Self.FK_dbo_PosteFormations_dbo_Formations_FormationConcerne_FormationID">
+      <End Role="Formations" EntitySet="Formations" />
+      <End Role="PosteFormations" EntitySet="PosteFormations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_PosteFormations_dbo_Postes_PosteConcerne_PosteID" Association="Self.FK_dbo_PosteFormations_dbo_Postes_PosteConcerne_PosteID">
+      <End Role="Postes" EntitySet="Postes" />
+      <End Role="PosteFormations" EntitySet="PosteFormations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_SessionEmployees_dbo_Employees_EmployeeConcerne_Matricule" Association="Self.FK_dbo_SessionEmployees_dbo_Employees_EmployeeConcerne_Matricule">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="SessionEmployees" EntitySet="SessionEmployees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_SessionEmployees_dbo_Sessions_SessionConcerne_SessionID" Association="Self.FK_dbo_SessionEmployees_dbo_Sessions_SessionConcerne_SessionID">
+      <End Role="Sessions" EntitySet="Sessions" />
+      <End Role="SessionEmployees" EntitySet="SessionEmployees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Sessions_dbo_OrganismeFormations_OrganismeFomationConcerne_ID" Association="Self.FK_dbo_Sessions_dbo_OrganismeFormations_OrganismeFomationConcerne_ID">
+      <End Role="OrganismeFormations" EntitySet="OrganismeFormations" />
+      <End Role="Sessions" EntitySet="Sessions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

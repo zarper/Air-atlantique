@@ -1,0 +1,275 @@
+C:\Users\Ludovic\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\MaltAirAtlantique\bin\Debug\MaltAirAtlantique.exe.config
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\MaltAirAtlantique.exe.config
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.csprojResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\App.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique_MarkupCompile.cache
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique_MarkupCompile.lref
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\MaltAirAtlantique.exe
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\MaltAirAtlantique.pdb
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\EntityFramework.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\EntityFramework.SqlServer.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\EntityFramework.xml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\EntityFramework.SqlServer.xml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.g.resources
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.Properties.Resources.resources
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.csproj.GenerateResource.Cache
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.exe
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.pdb
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailEmployeeView.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailFormationView.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailSessionView.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AcceuilView.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailEmployeeView.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailFormationView.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailSessionView.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AcceuilView.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\System.Windows.Interactivity.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\fr\EntityFramework.resources.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Navegar.Libs.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Navegar.Libs.4.5.9.5.Fakes.dll
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Navegar.Libs.4.5.9.5.Fakes.xml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterEmployeeViewCU.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterFormationViewCU.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterSessionViewCU.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeEmployeeViewCU.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterEmployeeViewCU.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterFormationViewCU.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterSessionViewCU.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeEmployeeViewCU.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeFormationViewCU.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeFormationViewCU.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeSessionViewCU.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeSessionViewCU.baml
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\NotificationViewCU.g.cs
+E:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\NotificationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\MaltAirAtlantique.exe.config
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.exe
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterEmployeeViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterSessionViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AcceuilView.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeEmployeeViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeFormationViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeSessionViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\NotificationViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\App.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique_MarkupCompile.cache
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique_MarkupCompile.lref
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\MaltAirAtlantique.exe
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\MaltAirAtlantique.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\System.Windows.Interactivity.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Navegar.Libs.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\Navegar.Libs.4.5.9.5.Fakes.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\fr\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterFormationViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterEmployeeViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterFormationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterSessionViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AcceuilView.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeEmployeeViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeFormationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListeSessionViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\NotificationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.g.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.Properties.Resources.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailFormationViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailFormationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterOFViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterOFViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterPosteViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\AjouterPosteViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailEmployeeViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailSessionViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListePosteViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailEmployeeViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailSessionViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\ListePosteViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailOrganismeViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailOrganismeViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailPosteViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\View\DetailPosteViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.Migrations.InitialCreate.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.Migrations.Rajoutbooldanssession.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\MaltAirAtlantique.exe.config
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.exe
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\MaltAirAtlantique.exe
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\MaltAirAtlantique.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\EntityFramework.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\System.Windows.Interactivity.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\Navegar.Libs.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\EntityFramework.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\Navegar.Libs.4.5.9.5.Fakes.xml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\fr\EntityFramework.resources.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterEmployeeViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterFormationViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterOFViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterPosteViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterSessionViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailEmployeeViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailFormationViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailOrganismeViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailPosteViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailSessionViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AcceuilView.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\ListeEmployeeViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\ListeFormationViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\ListePosteViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\ListeSessionViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\NotificationViewCU.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\App.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique_MarkupCompile.cache
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique_MarkupCompile.lref
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterEmployeeViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterFormationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterOFViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterPosteViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AjouterSessionViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailEmployeeViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailFormationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailOrganismeViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailPosteViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\DetailSessionViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\AcceuilView.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\ListeEmployeeViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\ListeFormationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\ListePosteViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\ListeSessionViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\View\NotificationViewCU.baml
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.g.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.Migrations.InitialCreate.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.Migrations.Rajoutbooldanssession.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.Properties.Resources.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique - github\obj\Debug\MaltAirAtlantique.Migrations.Skype.resources
+D:\Documents\Visual Studio 2015\Projects\MaltAirAtlantique\obj\Debug\MaltAirAtlantique.Migrations.Skype.resources
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\MaltAirAtlantique.exe.config
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.exe
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.pdb
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\MaltAirAtlantique.exe
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\MaltAirAtlantique.pdb
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\EntityFramework.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\Navegar.Libs.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\EntityFramework.xml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\Navegar.Libs.4.5.9.5.Fakes.xml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.csprojResolveAssemblyReference.cache
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterEmployeeViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterFormationViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterOFViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterPosteViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterSessionViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailEmployeeViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailFormationViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailOrganismeViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailPosteViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailSessionViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AcceuilView.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\ListeEmployeeViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\ListeFormationViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\ListePosteViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\ListeSessionViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\NotificationViewCU.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\App.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique_MarkupCompile.cache
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique_MarkupCompile.lref
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterEmployeeViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterFormationViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterOFViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterPosteViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AjouterSessionViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailEmployeeViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailFormationViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailOrganismeViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailPosteViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\DetailSessionViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\AcceuilView.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\ListeEmployeeViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\ListeFormationViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\ListePosteViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\ListeSessionViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\NotificationViewCU.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.g.resources
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.Migrations.InitialCreate.resources
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.Migrations.Rajoutbooldanssession.resources
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.Migrations.Skype.resources
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.Properties.Resources.resources
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\MaltAirAtlantique.csproj.GenerateResource.Cache
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\LoginView.g.cs
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\LoginView.baml
+C:\Users\adrie\OneDrive\Documents\Visual Studio 2015\Projects\MaltAirAtlantique-master\obj\Debug\View\GestionaccesViewCU.g.cs

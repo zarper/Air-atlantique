@@ -1,0 +1,149 @@
+﻿<UserControl x:Class="MaltAirAtlantique.View.DetailEmployeeViewCU"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaltAirAtlantique.View"
+        mc:Ignorable="d"
+        xmlns:vm="clr-namespace:MaltAirAtlantique.ViewModel"
+        xmlns:design="clr-namespace:MaltAirAtlantique.ViewModel.Design"
+        d:DesignHeight="400" d:DesignWidth="600">
+
+    <UserControl.DataContext>
+        <vm:DetailEmployeeViewModel />
+    </UserControl.DataContext>
+
+    <d:DesignProperties.DataContext>
+        <design:DesignDetailEmployee />
+    </d:DesignProperties.DataContext>
+    <UserControl.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontStyle" Value="Italic" />
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <!-- Template for button style -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <!-- Content handles within a border -->
+                        <Border x:Name="bdr" CornerRadius="10" Margin="3,0,1,3" BorderThickness="1" BorderBrush="black" Background="white">
+                            <!-- ContentPresenter properties. Set the content source as the content from each control define below -->
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Content" TextBlock.FontSize="9" />
+                        </Border>
+                        <!-- Required triggers define here -->
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="bdr" Property="Background" Value="DarkGray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="173*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" DataContext="{Binding}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" DataContext="{Binding}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="15*"/>
+                </Grid.RowDefinitions>
+                <ListView x:Name="listSession"  HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" ItemsSource="{Binding EmployeeConcerne.CesSessions,Mode=TwoWay}" SelectedItem="{Binding SessionSelectionner, Mode=TwoWay}" Background="Azure" Opacity="0.7" Height="80" Width="280">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="5*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="TbkName" Grid.Column="0" Text="{Binding SessionConcerne.DateDebut, Mode=TwoWay}" FontSize="12" />
+                                <TextBlock x:Name="TbkPrenom" Grid.Column="1" Text="{Binding SessionConcerne.Lieu, Mode=TwoWay}" FontSize="12" />
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>
+                <Menu IsMainMenu="False" Background="Azure" FontFamily="Stencil" Foreground="Red" BorderBrush="Black" FontSize="14" DataContext="{Binding}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Height="auto" Width="auto" Opacity="0.7" >
+                    <MenuItem x:Name="DetailSession" Header="_Détail"  Command="{Binding DetailSessionCommand}"  BorderBrush="Red" FontFamily="Tahoma"/>
+                </Menu>
+                <Menu IsMainMenu="False" Background="Azure" FontFamily="Stencil" Foreground="Red" BorderBrush="Black" FontSize="14" DataContext="{Binding}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="5" Height="auto" Width="auto" Opacity="0.7" >
+                    <MenuItem x:Name="DetailOrganisme" Header="_Détail"  Command="{Binding DetailFormationCommand}"  BorderBrush="Red" FontFamily="Tahoma"/>
+                </Menu>
+                <Label x:Name="ListeSessionLabel" Content="Liste des sessions" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma"  Width="auto" Height="auto" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="Azure" Opacity="0.7"/>
+                <Label x:Name="ListeFormationLabel" Content="Liste des formations" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="auto" Height="auto" Background="Azure" Opacity="0.7" Grid.Row="3"/>
+                <ListView x:Name="ListeViewFormation" Margin="10,11,10,10" ItemsSource="{Binding EmployeeConcerne.CesFormations}" SelectedItem="{Binding FormationSelectionner, Mode=TwoWay}" Background="Azure" Opacity="0.7" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="280">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="5*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="TbkName" Grid.Column="0" Text="{Binding FormationConcerne.Nom}" FontSize="12" />
+                                <TextBlock x:Name="TbkLien" Grid.Column="1" Text="{Binding FormationConcerne.Description}" FontSize="12" />
+  
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>
+
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="292" Margin="22,28,0,0" VerticalAlignment="Top" Width="261">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="33*"/>
+                </Grid.RowDefinitions>
+                <Grid Width="auto" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Azure" Opacity="0.7" DataContext="{Binding}" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Label x:Name="labelNom" Content="{Binding EmployeeConcerne.Nom}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto" Foreground="Red"  FontWeight="Bold" FontFamily="Trebuchet MS" FontSize="16" Margin="2"/>
+                    <Label x:Name="labelPrenom" Content="{Binding EmployeeConcerne.Prenom}" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Width="auto" Height="auto" Foreground="Red"  FontWeight="Bold" FontFamily="Trebuchet MS" FontSize="16" Margin="2"/>
+                    <Label x:Name="labelPoste" Grid.Row="2" Content="{Binding EmployeeConcerne.PosteAttribuer.Nom}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto" Foreground="Red"  FontWeight="Bold" FontFamily="Trebuchet MS" FontSize="16" Margin="10"/>
+                </Grid>
+                <Grid  Height="101"  Grid.Row="1" Width="214" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Azure" Opacity="0.7" DataContext="{Binding}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="54*"/>
+                        <RowDefinition Height="24*"/>
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="comboBox" HorizontalAlignment="Center" Height="25"  Grid.Row="1" VerticalAlignment="Center" Width="170" ItemsSource="{Binding ListeFormation}" SelectedItem="{Binding AjouterFormationSelectionner}" DisplayMemberPath="Nom" SelectedIndex="0"/>
+                    <Label x:Name="label" Content="Ajouter une formation" HorizontalAlignment="Center"  Grid.Row="0" VerticalAlignment="Center" Width="auto" Height="auto" Foreground="Red"  FontWeight="Bold" FontFamily="Trebuchet MS" FontSize="16" Margin="2"/>
+                    <Menu IsMainMenu="False" Background="Azure" FontFamily="Stencil" Foreground="Red" BorderBrush="Black" FontSize="14" DataContext="{Binding}" VerticalAlignment="Center" HorizontalAlignment="Center" Height="auto" Width="58" Opacity="0.7" Margin="74,2,82,0" Grid.Row="2" >
+                        <MenuItem x:Name="AjouterFormation" Header="_Ajouter"  Command="{Binding AjouterFormationCommand}"  BorderBrush="Red" FontFamily="Tahoma" Width="auto"/>
+                    </Menu>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Label x:Name="NomFormation" Content="{Binding EmployeeConcerne.Matricule}" Height="auto" Width="auto" Foreground="Red" FontWeight="Bold" FontFamily="Trebuchet MS" FontSize="32" d:LayoutOverrides="Height, TopMargin, BottomMargin" HorizontalAlignment="Center" VerticalAlignment="Center"  Opacity="0.7"/>
+    </Grid>
+</UserControl>

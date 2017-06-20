@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="MaltAirAtlantique.View.NotificationViewCU"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MaltAirAtlantique.View"
+             xmlns:vm="clr-namespace:MaltAirAtlantique.ViewModel"
+             xmlns:design="clr-namespace:MaltAirAtlantique.ViewModel.Design"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="600">
+
+    <d:DesignProperties.DataContext>
+        <design:DesignNotification />
+    </d:DesignProperties.DataContext>
+
+    <UserControl.DataContext>
+        <vm:NotificationViewModel />
+    </UserControl.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="293*"/>
+            <ColumnDefinition Width="307*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Height="auto" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Azure" Opacity="0.7" Width="auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="label" Content="Sessions à valider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto"  FontSize="12"   Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontStyle="Italic" Margin="5"/>
+            <ListView x:Name="listView" HorizontalAlignment="Center" MaxHeight="300" ItemsSource="{Binding ListeSessionAValider}" SelectedItem="{Binding SessionSelectionner}" Grid.Row="1" VerticalAlignment="Center" Width="auto" Height="auto" MaxWidth="250" Margin="5">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock x:Name="TbkNameFormation" Grid.Column="0" Text="{Binding OrganismeFomationConcerne.FormationConcerne.Nom, Mode=TwoWay}" FontSize="12" Margin="5" />
+                            <TextBlock x:Name="TbkNameOrganisme" Grid.Column="1" Text="{Binding OrganismeFomationConcerne.OrganismeConcerne.Nom, Mode=TwoWay}" FontSize="12" Margin="5" />
+                            <TextBlock x:Name="TbkLieu" Grid.Column="2" Text="{Binding Lieu, Mode=TwoWay}" FontSize="12" Margin="5" />
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Menu x:Name="menuSession"   Grid.Row="2"  Background="Azure" FontFamily="Stencil" Foreground="Red" Height="auto" VerticalAlignment="Center" BorderBrush="Black" FontSize="14" DataContext="{Binding}" Width="auto" HorizontalAlignment="Center" Opacity="0.7" >
+                <MenuItem x:Name="menuValiderSession" Header="_Valider"  Command="{Binding ValiderSessionCommand}" BorderBrush="Red" FontFamily="Tahoma" Margin="5" />
+                <MenuItem x:Name="menuDetailSession" Header="_Détail"  Command="{Binding DetailSessionCommand}" BorderBrush="Red" FontFamily="Tahoma" Margin="5" />
+            </Menu>
+        </Grid>
+        <Grid Grid.Column="1"  Height="auto"   Width="250" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Azure" Opacity="0.7" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="label1" Content="Employee à former obligatoirement" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto"  FontSize="12"   Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontStyle="Italic" Margin="5"/>
+            <ListView x:Name="listView1" Grid.Row="1" HorizontalAlignment="Center" MaxHeight="300" ItemsSource="{Binding ListeEmployeeNonConforme}" SelectedItem="{Binding EFSelectionner}"  VerticalAlignment="Center" Width="auto" Height="auto" MaxWidth="250" Margin="5">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock x:Name="TbkNameFormation" Grid.Column="0" Text="{Binding EmployeeConcerne.Matricule, Mode=TwoWay}" FontSize="12" Margin="5" />
+                            <TextBlock x:Name="TbkNameOrganisme" Grid.Column="1" Foreground="Red"  Text="{Binding FormationConcerne.Nom, Mode=TwoWay}" FontSize="12" Margin="5" />
+                            <TextBlock x:Name="TbkLieu" Grid.Column="2" Text="{Binding Lieu, Mode=TwoWay}" FontSize="12" Margin="5" />
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Menu x:Name="menuDetailEmployee_Copy"   Grid.Row="2"  Background="Azure" FontFamily="Stencil" Foreground="Red" Height="auto" VerticalAlignment="Center" BorderBrush="Black" FontSize="14" DataContext="{Binding}" Width="auto" HorizontalAlignment="Center" Opacity="0.7">
+                <MenuItem x:Name="CreerSession" Header="_Crée une session"  Command="{Binding CreerSessionCommand}" BorderBrush="Red" FontFamily="Tahoma" Margin="5" />
+                <MenuItem x:Name="DetailEmployee" Header="_Détail de l'employee"  Command="{Binding DetailEmployeeCommand }" BorderBrush="Red" FontFamily="Tahoma" Margin="5" />
+            </Menu>
+        </Grid>
+    </Grid>
+</UserControl>

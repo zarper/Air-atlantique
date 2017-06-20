@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MaltAirAtlantiqueModelStoreContainer" CdmEntityContainer="MaltAirAtlantiqueEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeFormations">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.EmployeeFormation">
+        <MappingFragment StoreEntitySet="EmployeeFormations">
+          <ScalarProperty Name="EmployeeFormationID" ColumnName="EmployeeFormationID" />
+          <ScalarProperty Name="EmployeeConcerne_Matricule" ColumnName="EmployeeConcerne_Matricule" />
+          <ScalarProperty Name="FormationConcerne_FormationID" ColumnName="FormationConcerne_FormationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.Employee">
+        <MappingFragment StoreEntitySet="Employees">
+          <ScalarProperty Name="Matricule" ColumnName="Matricule" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+          <ScalarProperty Name="PosteAttribuer_PosteID" ColumnName="PosteAttribuer_PosteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Formations">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.Formation">
+        <MappingFragment StoreEntitySet="Formations">
+          <ScalarProperty Name="FormationID" ColumnName="FormationID" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DureeEnHeure" ColumnName="DureeEnHeure" />
+          <ScalarProperty Name="DureeDeValidite" ColumnName="DureeDeValidite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrganismeFormations">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.OrganismeFormation">
+        <MappingFragment StoreEntitySet="OrganismeFormations">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+          <ScalarProperty Name="FormationConcerne_FormationID" ColumnName="FormationConcerne_FormationID" />
+          <ScalarProperty Name="OrganismeConcerne_OrganismeID" ColumnName="OrganismeConcerne_OrganismeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Organismes">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.Organisme">
+        <MappingFragment StoreEntitySet="Organismes">
+          <ScalarProperty Name="OrganismeID" ColumnName="OrganismeID" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="ContactNom" ColumnName="ContactNom" />
+          <ScalarProperty Name="ContactMail" ColumnName="ContactMail" />
+          <ScalarProperty Name="LienInternet" ColumnName="LienInternet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PosteFormations">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.PosteFormation">
+        <MappingFragment StoreEntitySet="PosteFormations">
+          <ScalarProperty Name="PosteFormationID" ColumnName="PosteFormationID" />
+          <ScalarProperty Name="FormationConcerne_FormationID" ColumnName="FormationConcerne_FormationID" />
+          <ScalarProperty Name="PosteConcerne_PosteID" ColumnName="PosteConcerne_PosteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Postes">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.Poste">
+        <MappingFragment StoreEntitySet="Postes">
+          <ScalarProperty Name="PosteID" ColumnName="PosteID" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SessionEmployees">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.SessionEmployee">
+        <MappingFragment StoreEntitySet="SessionEmployees">
+          <ScalarProperty Name="SessionEmployeesID" ColumnName="SessionEmployeesID" />
+          <ScalarProperty Name="EmployeeConcerne_Matricule" ColumnName="EmployeeConcerne_Matricule" />
+          <ScalarProperty Name="SessionConcerne_SessionID" ColumnName="SessionConcerne_SessionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sessions">
+      <EntityTypeMapping TypeName="MaltAirAtlantiqueModel.Session">
+        <MappingFragment StoreEntitySet="Sessions">
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+          <ScalarProperty Name="DateDebut" ColumnName="DateDebut" />
+          <ScalarProperty Name="DateFin" ColumnName="DateFin" />
+          <ScalarProperty Name="NbrPlaceTotal" ColumnName="NbrPlaceTotal" />
+          <ScalarProperty Name="Lieu" ColumnName="Lieu" />
+          <ScalarProperty Name="OrganismeFomationConcerne_ID" ColumnName="OrganismeFomationConcerne_ID" />
+          <ScalarProperty Name="SessionValider" ColumnName="SessionValider" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="instpdw" FunctionName="MaltAirAtlantiqueModel.Store.instpdw" />
+  </EntityContainerMapping>
+</Mapping>

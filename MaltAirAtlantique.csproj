@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC050E6D-CDD5-4C35-8616-1DF538AD9048}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MaltAirAtlantique</RootNamespace>
+    <AssemblyName>MaltAirAtlantique</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
+      <HintPath>packages\MvvmLightLibs.5.2.0.0\lib\net45\GalaSoft.MvvmLight.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=669f0b5e8f868abf, processorArchitecture=MSIL">
+      <HintPath>packages\MvvmLightLibs.5.2.0.0\lib\net45\GalaSoft.MvvmLight.Extras.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.2.0.37226, Culture=neutral, PublicKeyToken=5f873c45e98af8a1, processorArchitecture=MSIL">
+      <HintPath>packages\MvvmLightLibs.5.2.0.0\lib\net45\GalaSoft.MvvmLight.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Navegar.Libs.4.5.9.5.Fakes">
+      <HintPath>FakesAssemblies\Navegar.Libs.4.5.9.5.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\MvvmLightLibs.5.2.0.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Compile Include="Helper\DBAirAtlantiqueContext.cs" />
+    <Compile Include="Helper\LaNavigation.cs" />
+    <Compile Include="Migrations\201605210709239_InitialCreate.cs" />
+    <Compile Include="Migrations\201605210709239_InitialCreate.Designer.cs">
+      <DependentUpon>201605210709239_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605211534087_Rajout bool dans session.cs" />
+    <Compile Include="Migrations\201605211534087_Rajout bool dans session.Designer.cs">
+      <DependentUpon>201605211534087_Rajout bool dans session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606100832474_Skype .cs" />
+    <Compile Include="Migrations\201606100832474_Skype .Designer.cs">
+      <DependentUpon>201606100832474_Skype .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\DAO\DAOEmploye.cs" />
+    <Compile Include="Model\DAO\DAOEmployeAcces.cs" />
+    <Compile Include="Model\DAO\DAOEmployeeFormation.cs" />
+    <Compile Include="Model\DAO\DAOFormation.cs" />
+    <Compile Include="Model\DAO\DAOOrganisme.cs" />
+    <Compile Include="Model\DAO\DAOOrganismeFormation.cs" />
+    <Compile Include="Model\DAO\DAOPosteFormation.cs" />
+    <Compile Include="Model\DAO\DAOSession.cs" />
+    <Compile Include="Model\DAO\DAOPoste.cs" />
+    <Compile Include="Model\DAO\DAOSessionEmploye.cs" />
+    <Compile Include="Model\EmployeeFormation.cs" />
+    <Compile Include="Model\Poste.cs" />
+    <Compile Include="Model\Notification.cs" />
+    <Compile Include="Model\OrganismeFormation.cs" />
+    <Compile Include="Model\PosteFormation.cs" />
+    <Compile Include="Model\SessionEmployee.cs" />
+    <Compile Include="ViewModel\AcceuilViewModel.cs" />
+    <Compile Include="ViewModel\AjouterEmployeeViewModel.cs" />
+    <Compile Include="ViewModel\AjouterFormationViewModel.cs" />
+    <Compile Include="ViewModel\AjouterOrganismeFormationViewModel.cs" />
+    <Compile Include="ViewModel\AjouterPosteViewModel.cs" />
+    <Compile Include="ViewModel\AjouterSessionViewModel.cs" />
+    <Compile Include="ViewModel\Design\DesignAjouterEmployee.cs" />
+    <Compile Include="ViewModel\Design\DesignAjouterFormation.cs" />
+    <Compile Include="ViewModel\Design\DesignAjouterOrganismeFormation.cs" />
+    <Compile Include="ViewModel\Design\DesignAjouterPoste.cs" />
+    <Compile Include="ViewModel\Design\DesignAjouterSession.cs" />
+    <Compile Include="ViewModel\Design\DesignDetailEmployee.cs" />
+    <Compile Include="ViewModel\Design\DesignDetailFormation.cs" />
+    <Compile Include="ViewModel\Design\DesignDetailOrganisme.cs" />
+    <Compile Include="ViewModel\Design\DesignDetailPoste.cs" />
+    <Compile Include="ViewModel\Design\DesignDetailSession.cs" />
+    <Compile Include="ViewModel\Design\DesignGestionDroitEmploye.cs" />
+    <Compile Include="ViewModel\Design\DesignListeEmployee.cs" />
+    <Compile Include="ViewModel\Design\DesignListeFormation.cs" />
+    <Compile Include="ViewModel\Design\DesignListePoste.cs" />
+    <Compile Include="ViewModel\Design\DesignListeSession.cs" />
+    <Compile Include="ViewModel\Design\DesignNotification.cs" />
+    <Compile Include="ViewModel\DetailEmployeeViewModel.cs" />
+    <Compile Include="ViewModel\DetailFormationViewModel.cs" />
+    <Compile Include="ViewModel\DetailOrganismeViewModel.cs" />
+    <Compile Include="ViewModel\DetailPosteViewModel.cs" />
+    <Compile Include="ViewModel\DetailSessionViewModel.cs" />
+    <Compile Include="ViewModel\GestionaccesViewCU.xaml.cs" />
+    <Compile Include="ViewModel\Interface\GestionaccesViewCU.xaml.cs" />
+    <Compile Include="ViewModel\Interface\IAcceuilView.cs" />
+    <Compile Include="ViewModel\Interface\IAjouterEmployeeView.cs" />
+    <Compile Include="ViewModel\Interface\IAjouterFormationView.cs" />
+    <Compile Include="ViewModel\Interface\IAjouterOrganismeFormationView.cs" />
+    <Compile Include="ViewModel\Interface\IAjouterPosteView.cs" />
+    <Compile Include="ViewModel\Interface\IAjouterSessionView.cs" />
+    <Compile Include="ViewModel\Interface\IDetailEmployeeView.cs" />
+    <Compile Include="ViewModel\Interface\IDetailFormationView.cs" />
+    <Compile Include="ViewModel\Interface\IDetailOrganismeView.cs" />
+    <Compile Include="ViewModel\Interface\IDetailPosteView.cs" />
+    <Compile Include="ViewModel\Interface\IDetailSessionView.cs" />
+    <Compile Include="ViewModel\Interface\IGestionaccesView.cs" />
+    <Compile Include="ViewModel\Interface\IListeEmployeeView.cs" />
+    <Compile Include="ViewModel\Interface\IListeFormationView.cs" />
+    <Compile Include="ViewModel\Interface\IListePosteView.cs" />
+    <Compile Include="ViewModel\Interface\IListeSessionView.cs" />
+    <Compile Include="ViewModel\Interface\ILoginView.cs" />
+    <Compile Include="ViewModel\Interface\INotificationView.cs" />
+    <Compile Include="ViewModel\ListeEmployeeViewModel.cs" />
+    <Compile Include="ViewModel\ListeFormationViewModel.cs" />
+    <Compile Include="ViewModel\ListePosteViewModel.cs" />
+    <Compile Include="ViewModel\ListeSessionViewModel.cs" />
+    <Compile Include="Helper\RelayCommand.cs" />
+    <Compile Include="Migrations\RelayCommandWithParam.cs" />
+    <Compile Include="ViewModel\LoginView.xaml.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\NotificationViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\AjouterEmployeeViewCU.xaml.cs">
+      <DependentUpon>AjouterEmployeeViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AjouterFormationViewCU.xaml.cs">
+      <DependentUpon>AjouterFormationViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AjouterOFViewCU.xaml.cs">
+      <DependentUpon>AjouterOFViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AjouterPosteViewCU.xaml.cs">
+      <DependentUpon>AjouterPosteViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AjouterSessionViewCU.xaml.cs">
+      <DependentUpon>AjouterSessionViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DetailFormationViewCU.xaml.cs">
+      <DependentUpon>DetailFormationViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DetailOrganismeViewCU.xaml.cs">
+      <DependentUpon>DetailOrganismeViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DetailPosteViewCU.xaml.cs">
+      <DependentUpon>DetailPosteViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GestionaccesViewCU.xaml.cs">
+      <DependentUpon>GestionaccesViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListeEmployeeViewCU.xaml.cs">
+      <DependentUpon>ListeEmployeeViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListeFormationViewCU.xaml.cs">
+      <DependentUpon>ListeFormationViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListePosteViewCU.xaml.cs">
+      <DependentUpon>ListePosteViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListeSessionViewCU.xaml.cs">
+      <DependentUpon>ListeSessionViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NotificationViewCU.xaml.cs">
+      <DependentUpon>NotificationViewCU.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\AjouterEmployeeViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AjouterFormationViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AjouterOFViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AjouterPosteViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AjouterSessionViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DetailEmployeeViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DetailFormationViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DetailOrganismeViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DetailPosteViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DetailSessionViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AcceuilView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\DetailEmployeeViewCU.xaml.cs">
+      <DependentUpon>DetailEmployeeViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DetailSessionViewCU.xaml.cs">
+      <DependentUpon>DetailSessionViewCU.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AcceuilView.xaml.cs">
+      <DependentUpon>AcceuilView.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\GestionaccesViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ListeEmployeeViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ListeFormationViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ListePosteViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ListeSessionViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\NotificationViewCU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\Formation.cs" />
+    <Compile Include="Model\Organisme.cs" />
+    <Compile Include="Model\Session.cs" />
+    <Compile Include="program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Migrations\201605210709239_InitialCreate.resx">
+      <DependentUpon>201605210709239_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605211534087_Rajout bool dans session.resx">
+      <DependentUpon>201605211534087_Rajout bool dans session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606100832474_Skype .resx">
+      <DependentUpon>201606100832474_Skype .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Src\logo\logoAA .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Src\logo\signe +.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Src\logo\signe -.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Src\boeing-787-wallpaper2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Src\logo\callbutton_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

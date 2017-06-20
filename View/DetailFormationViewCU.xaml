@@ -1,0 +1,167 @@
+﻿<UserControl x:Class="MaltAirAtlantique.View.DetailFormationViewCU"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MaltAirAtlantique.View"
+             mc:Ignorable="d" 
+             xmlns:vm="clr-namespace:MaltAirAtlantique.ViewModel"
+             xmlns:design="clr-namespace:MaltAirAtlantique.ViewModel.Design"
+             d:DesignHeight="400" d:DesignWidth="600">
+
+    <UserControl.DataContext>
+        <vm:DetailFormationViewModel />
+    </UserControl.DataContext>
+
+    <d:DesignProperties.DataContext>
+        <design:DesignDetailFormation />
+    </d:DesignProperties.DataContext>
+
+    <UserControl.Resources>
+
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontStyle" Value="Italic" />
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <!-- Template for button style -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <!-- Content handles within a border -->
+                        <Border x:Name="bdr" CornerRadius="10" Margin="3,0,1,3" BorderThickness="1" BorderBrush="black" Background="white">
+                            <!-- ContentPresenter properties. Set the content source as the content from each control define below -->
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Content" TextBlock.FontSize="9" />
+                        </Border>
+                        <!-- Required triggers define here -->
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="bdr" Property="Background" Value="DarkGray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="173*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" DataContext="{Binding}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" DataContext="{Binding}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="15*"/>
+                </Grid.RowDefinitions>
+                <ListView x:Name="listSession"  HorizontalAlignment="Center"  VerticalAlignment="Center" Grid.Row="1" ItemsSource="{Binding ListeSessionConcerne,Mode=TwoWay}" SelectedItem="{Binding SessionSelectionner, Mode=TwoWay}" Background="Azure" Opacity="0.7" Height="80" Width="280">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="5*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="TbkName" Grid.Column="0" Text="{Binding DateDebut, Mode=TwoWay}" FontSize="12" />
+                                <TextBlock x:Name="TbkPrenom" Grid.Column="1" Text="{Binding Lieu, Mode=TwoWay}" FontSize="12" />
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>
+                <Menu IsMainMenu="False" Background="Azure" FontFamily="Stencil" Foreground="Red" BorderBrush="Black" FontSize="14" DataContext="{Binding}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" Height="auto" Width="auto" Opacity="0.7" >
+                    <MenuItem x:Name="CreerSession" Header="_Créer"  Command="{Binding CreerSessionCommand}"  BorderBrush="Red" FontFamily="Tahoma"  />
+                    <MenuItem x:Name="DetailSession" Header="_Détail"  Command="{Binding DetailSessionCommand}"  BorderBrush="Red" FontFamily="Tahoma"/>
+                </Menu>
+                <Menu IsMainMenu="False" Background="Azure" FontFamily="Stencil" Foreground="Red" BorderBrush="Black" FontSize="14" DataContext="{Binding}" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="5" Height="auto" Width="auto" Opacity="0.7" >
+                    <MenuItem x:Name="AjouterOrganisme" Header="_Ajouter"  Command="{Binding AjouterOrganismeFormationCommand}"  BorderBrush="Red" FontFamily="Tahoma"  />
+                    <MenuItem x:Name="DetailOrganisme" Header="_Détail"  Command="{Binding DetailOrganismeCommand}"  BorderBrush="Red" FontFamily="Tahoma"/>
+                </Menu>
+                <Label x:Name="ListeSessionLabel" Content="Liste des sessions" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma"  Width="auto" Height="auto" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="Azure" Opacity="0.7"/>
+                <Label x:Name="ListeOrganismeLabel" Content="Liste des organismes" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="auto" Height="auto" Background="Azure" Opacity="0.7" Grid.Row="3"/>
+                <ListView x:Name="ListeViewOrganisme" Margin="10,11,10,10" ItemsSource="{Binding Formation.ListOrganismes}" SelectedItem="{Binding OrganismeFormationSelectionner, Mode=TwoWay}" Background="Azure" Opacity="0.7" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="280">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="5*" />
+                                    <ColumnDefinition Width="2*" />
+                                    <ColumnDefinition Width="1*" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="TbkName" Grid.Column="0" Text="{Binding OrganismeConcerne.Nom}" FontSize="12" />
+                                <TextBlock x:Name="TbkLien" Grid.Column="1" Text="{Binding OrganismeConcerne.LienInternet}" FontSize="12" />
+                                <TextBlock x:Name="TbkPrix" Grid.Column="2" Text="{Binding Prix}" FontSize="12" />
+                                <TextBlock x:Name="Tbke" Grid.Column="3" Text="€" FontSize="12" />
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>
+
+            </Grid>
+            <Grid Margin="10,10,10,0" DataContext="{Binding}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="305*"/>
+                    <RowDefinition Height="31*"/>
+                </Grid.RowDefinitions>
+                <Grid Margin="10" DataContext="{Binding Formation}" Background="Azure" Opacity="0.7">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="90*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="DescriptionFormation" HorizontalAlignment="Left" Margin="10,37.784,0,10" TextWrapping="Wrap" Text="{Binding Description, Mode=TwoWay}" Width="244.5" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" >
+                        <TextBlock.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </TextBlock.Resources>
+                    </TextBlock>
+                    <Label x:Name="labelDuréeFormation" Content="Durée de la formation: " Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" Grid.Row="1" Margin="10,10,100.41,22.667"/>
+                    <TextBlock x:Name="DureeEnHeureFormation" HorizontalAlignment="Left" Margin="172.923,13.667,0,26" TextWrapping="Wrap" Width="31" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" Text="{Binding DureeEnHeure, Mode=OneWay}" FontSize="13.333" Grid.Row="1">
+                        <TextBlock.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </TextBlock.Resources>
+                    </TextBlock>
+                    <Label x:Name="labelDureeDeValiditeFormation" Content="Durée de validité:" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" Grid.Row="2" Width="115.59" Height="auto" Margin="10,10,0,23.516" HorizontalAlignment="Left" d:LayoutOverrides="Height"/>
+                    <Label x:Name="labelH" Content="H" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" Grid.Row="1"  HorizontalAlignment="Right"  Width="19.59" Margin="0,10,31.487,22.667" RenderTransformOrigin="0.753,0.521"/>
+                    <Label x:Name="labelAnnées" Content="Année(s)" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" Grid.Row="2"  HorizontalAlignment="Right"  Width="67.549" Margin="0,10,0,22.667"/>
+                    <TextBlock x:Name="DureeDeValiditeFormation" HorizontalAlignment="Left" Margin="172.923,13.667,0,27.333" TextWrapping="Wrap" Width="18.59" Foreground="Red" FontWeight="Bold" FontFamily="Tahoma" Text="{Binding DureeDeValidite, Mode=OneWay}" FontSize="13.333" Grid.Row="2">
+                        <TextBlock.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </TextBlock.Resources>
+                    </TextBlock>
+                    <Label x:Name="labelDescription" Content="Description:" HorizontalAlignment="Left" Margin="7,7,0,0" VerticalAlignment="Top" Width="auto" Height="auto" Foreground="Red"  FontWeight="Bold" FontFamily="Trebuchet MS" FontSize="16"  />
+                </Grid>
+            </Grid>
+        </Grid>
+        <Label x:Name="NomFormation" Content="{Binding Formation.Nom}" Height="auto" Width="auto" Foreground="Red" FontWeight="Bold" FontFamily="Trebuchet MS" FontSize="32" d:LayoutOverrides="Height, TopMargin, BottomMargin" HorizontalAlignment="Center" VerticalAlignment="Center"  Opacity="0.7"/>
+
+    </Grid>
+
+
+</UserControl>

@@ -1,0 +1,1484 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Navegar.Libs.4.5.9.5.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute">
+            <summary>Type shim de Navegar.Libs.Class.CurrentViewNavigationAttribute</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute.#ctor(Navegar.Libs.Class.CurrentViewNavigationAttribute)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute.Constructor">
+            <summary>Définit le shim de CurrentViewNavigationAttribute.CurrentViewNavigationAttribute()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimCurrentViewNavigationAttribute.GetCurrentViewPropertyType">
+            <summary>Définit le shim de CurrentViewNavigationAttribute.GetCurrentViewProperty(Type t)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.ShimNavigationBase">
+            <summary>Type shim de Navegar.Libs.Class.NavigationBase</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.#ctor(Navegar.Libs.Class.NavigationBase)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.CanGoBack">
+            <summary>Définit le shim de NavigationBase.CanGoBack()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.CancelNavigation">
+            <summary>Définit le shim de NavigationBase.CancelNavigation()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.Clear">
+            <summary>Définit le shim de NavigationBase.Clear()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.ClearNavigation">
+            <summary>Définit le shim de NavigationBase.ClearNavigation()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.GenerateNewInstanceViewModelNavigateToOf1TypeObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Navegar.Libs.Class.NavigationBase,System.Type,System.Object[],System.Boolean,System.String})">
+            <summary>Définit le shim de NavigationBase.GenerateNewInstanceViewModelNavigateTo(Type viewModelToName, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.GetTypeViewModelToBack">
+            <summary>Définit le shim de NavigationBase.GetTypeViewModelToBack()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.GetViewModelCurrent">
+            <summary>Définit le shim de NavigationBase.GetViewModelCurrent()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.GetViewModelInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Navegar.Libs.Class.NavigationBase,``0})">
+            <summary>Définit le shim de NavigationBase.GetViewModelInstance()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.GoBack">
+            <summary>Définit le shim de NavigationBase.GoBack()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.GoBackStringObjectArray">
+            <summary>Définit le shim de NavigationBase.GoBack(String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.HistoryNavigateToTypeTypeBoolean">
+            <summary>Définit le shim de NavigationBase.HistoryNavigateTo(Type viewModelFromName, Type viewModelToName, Boolean isModal)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.LoadFunctionViewModelNavigateToOf1ViewModelBaseStringObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Navegar.Libs.Class.NavigationBase,GalaSoft.MvvmLight.ViewModelBase,System.String,System.Object[]})">
+            <summary>Définit le shim de NavigationBase.LoadFunctionViewModelNavigateTo(ViewModelBase instance, String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.NavigateToOf1BooleanObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Navegar.Libs.Class.NavigationBase,System.Boolean,System.Object[],System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(Boolean newInstance, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.NavigateToOf1ObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Navegar.Libs.Class.NavigationBase,System.Object[],System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.NavigateToOf1ObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Navegar.Libs.Class.NavigationBase,System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.NavigateToOf1ViewModelBaseObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Navegar.Libs.Class.NavigationBase,GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.Boolean,System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.NavigateToOf1ViewModelBaseObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Navegar.Libs.Class.NavigationBase,GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.NavigationCanceledOnPreviewNavigateAddEventHandler">
+            <summary>Définit le shim de NavigationBase.add_NavigationCanceledOnPreviewNavigate(EventHandler value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.NavigationCanceledOnPreviewNavigateRemoveEventHandler">
+            <summary>Définit le shim de NavigationBase.remove_NavigationCanceledOnPreviewNavigate(EventHandler value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.OnNavigationCancel">
+            <summary>Définit le shim de NavigationBase.OnNavigationCancel()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.PreNavigateToTypeTypePreNavigationArgsOut">
+            <summary>Définit le shim de NavigationBase.PreNavigateTo(Type viewModelFromName, Type viewModelToName, PreNavigationArgs&amp; preNavigationArgs)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.PreviewNavigateGet">
+            <summary>Définit le shim de NavigationBase.get_PreviewNavigate()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.AllInstances.PreviewNavigateSetPreNavigateDelegateOfViewModelBase">
+            <summary>Définit le shim de NavigationBase.set_PreviewNavigate(PreNavigateDelegate`1&lt;ViewModelBase&gt; value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.Bind(Navegar.Libs.Interfaces.INavigation)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.Bind(System.IDisposable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.CanGoBack">
+            <summary>Définit le shim de NavigationBase.CanGoBack()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.CancelNavigation">
+            <summary>Définit le shim de NavigationBase.CancelNavigation()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.Clear">
+            <summary>Définit le shim de NavigationBase.Clear()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.ClearNavigation">
+            <summary>Définit le shim de NavigationBase.ClearNavigation()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.Constructor">
+            <summary>Définit le shim de NavigationBase.NavigationBase()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.GenerateNewInstanceViewModelNavigateToOf1TypeObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Type,System.Object[],System.Boolean,System.String})">
+            <summary>Définit le shim de NavigationBase.GenerateNewInstanceViewModelNavigateTo(Type viewModelToName, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.GetTypeViewModelToBack">
+            <summary>Définit le shim de NavigationBase.GetTypeViewModelToBack()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.GetViewModelCurrent">
+            <summary>Définit le shim de NavigationBase.GetViewModelCurrent()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.GetViewModelInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>Définit le shim de NavigationBase.GetViewModelInstance()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.GoBack">
+            <summary>Définit le shim de NavigationBase.GoBack()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.GoBackStringObjectArray">
+            <summary>Définit le shim de NavigationBase.GoBack(String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.HistoryNavigateToTypeTypeBoolean">
+            <summary>Définit le shim de NavigationBase.HistoryNavigateTo(Type viewModelFromName, Type viewModelToName, Boolean isModal)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.LoadFunctionViewModelNavigateToOf1ViewModelBaseStringObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{GalaSoft.MvvmLight.ViewModelBase,System.String,System.Object[]})">
+            <summary>Définit le shim de NavigationBase.LoadFunctionViewModelNavigateTo(ViewModelBase instance, String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.NavigateToOf1BooleanObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Boolean,System.Object[],System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(Boolean newInstance, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.NavigateToOf1ObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object[],System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.NavigateToOf1ObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.NavigateToOf1ViewModelBaseObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.Boolean,System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimNavigationBase.NavigateToOf1ViewModelBaseObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit le shim de NavigationBase.NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.NavigationCanceledOnPreviewNavigateAddEventHandler">
+            <summary>Définit le shim de NavigationBase.add_NavigationCanceledOnPreviewNavigate(EventHandler value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.NavigationCanceledOnPreviewNavigateRemoveEventHandler">
+            <summary>Définit le shim de NavigationBase.remove_NavigationCanceledOnPreviewNavigate(EventHandler value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.OnNavigationCancel">
+            <summary>Définit le shim de NavigationBase.OnNavigationCancel()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.PreNavigateToTypeTypePreNavigationArgsOut">
+            <summary>Définit le shim de NavigationBase.PreNavigateTo(Type viewModelFromName, Type viewModelToName, PreNavigationArgs&amp; preNavigationArgs)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.PreviewNavigateGet">
+            <summary>Définit le shim de NavigationBase.get_PreviewNavigate()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimNavigationBase.PreviewNavigateSetPreNavigateDelegateOfViewModelBase">
+            <summary>Définit le shim de NavigationBase.set_PreviewNavigate(PreNavigateDelegate`1&lt;ViewModelBase&gt; value)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs">
+            <summary>Type shim de Navegar.Libs.Class.PreNavigationArgs</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.#ctor(Navegar.Libs.Class.PreNavigationArgs)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.AllInstances.FunctionToLoadGet">
+            <summary>Définit le shim de PreNavigationArgs.get_FunctionToLoad()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.AllInstances.FunctionToLoadSetString">
+            <summary>Définit le shim de PreNavigationArgs.set_FunctionToLoad(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.AllInstances.ParametersFunctionToLoadGet">
+            <summary>Définit le shim de PreNavigationArgs.get_ParametersFunctionToLoad()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.AllInstances.ParametersFunctionToLoadSetObjectArray">
+            <summary>Définit le shim de PreNavigationArgs.set_ParametersFunctionToLoad(Object[] value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.Constructor">
+            <summary>Définit le shim de PreNavigationArgs.PreNavigationArgs()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.FunctionToLoadGet">
+            <summary>Définit le shim de PreNavigationArgs.get_FunctionToLoad()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.FunctionToLoadSetString">
+            <summary>Définit le shim de PreNavigationArgs.set_FunctionToLoad(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.ParametersFunctionToLoadGet">
+            <summary>Définit le shim de PreNavigationArgs.get_ParametersFunctionToLoad()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimPreNavigationArgs.ParametersFunctionToLoadSetObjectArray">
+            <summary>Définit le shim de PreNavigationArgs.set_ParametersFunctionToLoad(Object[] value)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.ShimTypeExtensions">
+            <summary>Type shim de Navegar.Libs.Class.TypeExtensions</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimTypeExtensions.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimTypeExtensions.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.ShimTypeExtensions.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimTypeExtensions.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimTypeExtensions.FilterMethodByParamsIEnumerableOfMethodInfoIEnumerableOfObject">
+            <summary>Définit le shim de TypeExtensions.FilterMethodByParams(IEnumerable`1&lt;MethodInfo&gt; methods, IEnumerable`1&lt;Object&gt; parameters)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.ShimTypeExtensions.GetMethodTypeStringObjectArray">
+            <summary>Définit le shim de TypeExtensions.GetMethod(Type type, String methodName, Object[] parameters)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute">
+            <summary>Type stub de Navegar.Libs.Class.CurrentViewNavigationAttribute</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.Equals(System.Object)">
+            <summary>Définit le stub de Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.EqualsObject">
+            <summary>Définit le stub de Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.GetHashCode">
+            <summary>Définit le stub de Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.GetHashCode01">
+            <summary>Définit le stub de Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubCurrentViewNavigationAttribute</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.IsDefaultAttribute">
+            <summary>Définit le stub de Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.IsDefaultAttribute01">
+            <summary>Définit le stub de Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.Match(System.Object)">
+            <summary>Définit le stub de Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.MatchObject">
+            <summary>Définit le stub de Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.TypeId">
+            <summary>Définit le stub de Attribute.get_TypeId()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubCurrentViewNavigationAttribute.TypeIdGet">
+            <summary>Définit le stub de Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.StubNavigationBase">
+            <summary>Type stub de Navegar.Libs.Class.NavigationBase</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.AttachBackingFieldToBackButtonPressed">
+            <summary>Attache les délégués pour émuler StubNavigationBase.BackButtonPressed en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubNavigationBase.BackButtonPressed">
+            <summary>Définit le stub de NavigationBase.get_BackButtonPressed()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.BackButtonPressedGet">
+            <summary>Définit le stub de NavigationBase.get_BackButtonPressed()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.BackButtonPressedSetFuncOfBoolean">
+            <summary>Définit le stub de NavigationBase.set_BackButtonPressed(Func`1&lt;Boolean&gt; value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubNavigationBase.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.CanGoBackFrame">
+            <summary>Définit le stub de NavigationBase.CanGoBackFrame()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.CanGoBackFrame01">
+            <summary>Définit le stub de NavigationBase.CanGoBackFrame()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.ClearNavigation">
+            <summary>Définit le stub de NavigationBase.ClearNavigation()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.ClearNavigation01">
+            <summary>Définit le stub de NavigationBase.ClearNavigation()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubNavigationBase.CurrentPlatform">
+            <summary>Définit le stub de NavigationBase.get_CurrentPlatform()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.CurrentPlatformGet">
+            <summary>Définit le stub de NavigationBase.get_CurrentPlatform()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.Dispose">
+            <summary>Définit le stub de NavigationBase.Dispose()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.Dispose01">
+            <summary>Définit le stub de NavigationBase.Dispose()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubNavigationBase.HasBackButton">
+            <summary>Définit le stub de NavigationBase.get_HasBackButton()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.HasBackButtonGet">
+            <summary>Définit le stub de NavigationBase.get_HasBackButton()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.InitializeRootFrame``2">
+            <summary>Définit le stub de NavigationBase.InitializeRootFrame()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.InitializeRootFrame(System.Object)">
+            <summary>Définit le stub de NavigationBase.InitializeRootFrame(Object rootFrame)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.InitializeRootFrameObject">
+            <summary>Définit le stub de NavigationBase.InitializeRootFrame(Object rootFrame)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.InitializeRootFrameOf2``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object})">
+            <summary>Définit les stubs de InitializeRootFrame()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubNavigationBase</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubNavigationBase.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubNavigationBase.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.Navigate``1(System.Type,System.Type,System.Object[],System.String,System.Object[],System.Boolean,System.Boolean)">
+            <summary>Définit le stub de NavigationBase.Navigate(Type viewModelToName, Type viewModelFromName, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance, Boolean isModal)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.Navigate(System.Type,System.String,System.Object[])">
+            <summary>Définit le stub de NavigationBase.Navigate(Type viewModelToName, String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.NavigateModalTo``1(GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean)">
+            <summary>Définit le stub de NavigationBase.NavigateModalTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.NavigateModalToOf1ViewModelBaseObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit les stubs de NavigateModalTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.NavigateOf1TypeTypeObjectArrayStringObjectArrayBooleanBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Type,System.Type,System.Object[],System.String,System.Object[],System.Boolean,System.Boolean,System.String})">
+            <summary>Définit les stubs de Navigate(Type viewModelToName, Type viewModelFromName, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance, Boolean isModal)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.NavigateTypeStringObjectArray">
+            <summary>Définit le stub de NavigationBase.Navigate(Type viewModelToName, String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.RegisterBackPressedAction``1(System.Func{System.Boolean})">
+            <summary>Définit le stub de NavigationBase.RegisterBackPressedAction(Func`1&lt;Boolean&gt; func)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.RegisterBackPressedActionOf1FuncOfBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{System.Boolean}})">
+            <summary>Définit les stubs de RegisterBackPressedAction(Func`1&lt;Boolean&gt; func)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.RegisterView``2">
+            <summary>Définit le stub de NavigationBase.RegisterView()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.RegisterView``2(Navegar.Libs.Enums.BackButtonViewEnum)">
+            <summary>Définit le stub de NavigationBase.RegisterView(BackButtonViewEnum backVirtualButton)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.RegisterViewOf2``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Définit les stubs de RegisterView()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.RegisterViewOf2BackButtonViewEnum``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Navegar.Libs.Enums.BackButtonViewEnum})">
+            <summary>Définit les stubs de RegisterView(BackButtonViewEnum backVirtualButton)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.SetNavigationHistory(System.Type,System.Boolean)">
+            <summary>Définit le stub de NavigationBase.SetNavigationHistory(Type viewModelFromName, Boolean isModal)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.SetNavigationHistoryTypeBoolean">
+            <summary>Définit le stub de NavigationBase.SetNavigationHistory(Type viewModelFromName, Boolean isModal)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubNavigationBase.ShowVirtualBackButton(System.Boolean,System.Boolean)">
+            <summary>Définit le stub de NavigationBase.ShowVirtualBackButton(Boolean visible, Boolean force)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Class.Fakes.StubNavigationBase.ShowVirtualBackButtonBooleanBoolean">
+            <summary>Définit le stub de NavigationBase.ShowVirtualBackButton(Boolean visible, Boolean force)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Class.Fakes.StubPreNavigationArgs">
+            <summary>Type stub de Navegar.Libs.Class.PreNavigationArgs</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubPreNavigationArgs.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubPreNavigationArgs.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="M:Navegar.Libs.Class.Fakes.StubPreNavigationArgs.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubPreNavigationArgs</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubPreNavigationArgs.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Class.Fakes.StubPreNavigationArgs.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException">
+            <summary>Type shim de Navegar.Libs.Exceptions.FrameNavigationException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException.#ctor(Navegar.Libs.Exceptions.FrameNavigationException)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimFrameNavigationException.Constructor">
+            <summary>Définit le shim de FrameNavigationException.FrameNavigationException()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException">
+            <summary>Type shim de Navegar.Libs.Exceptions.FunctionToLoadNavigationException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException.#ctor(Navegar.Libs.Exceptions.FunctionToLoadNavigationException)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimFunctionToLoadNavigationException.ConstructorStringString">
+            <summary>Définit le shim de FunctionToLoadNavigationException.FunctionToLoadNavigationException(String functionToLoadName, String typeName)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException">
+            <summary>Type shim de Navegar.Libs.Exceptions.HistoryNavigationException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException.#ctor(Navegar.Libs.Exceptions.HistoryNavigationException)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimHistoryNavigationException.Constructor">
+            <summary>Définit le shim de HistoryNavigationException.HistoryNavigationException()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimNavigationException">
+            <summary>Type shim de Navegar.Libs.Exceptions.NavigationException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNavigationException.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNavigationException.#ctor(Navegar.Libs.Exceptions.NavigationException)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimNavigationException.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNavigationException.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNavigationException.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimNavigationException.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNavigationException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimNavigationException.ConstructorException">
+            <summary>Définit le shim de NavigationException.NavigationException(Exception e)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException">
+            <summary>Type shim de Navegar.Libs.Exceptions.NotImplementedForCurrentPlatformException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException.#ctor(Navegar.Libs.Exceptions.NotImplementedForCurrentPlatformException)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimNotImplementedForCurrentPlatformException.Constructor">
+            <summary>Définit le shim de NotImplementedForCurrentPlatformException.NotImplementedForCurrentPlatformException()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException">
+            <summary>Type shim de Navegar.Libs.Exceptions.TypeObjectIsNotIncorrectException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException.#ctor(Navegar.Libs.Exceptions.TypeObjectIsNotIncorrectException)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimTypeObjectIsNotIncorrectException.ConstructorString">
+            <summary>Définit le shim de TypeObjectIsNotIncorrectException.TypeObjectIsNotIncorrectException(String expectedType)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException">
+            <summary>Type shim de Navegar.Libs.Exceptions.ViewModelHistoryTypeException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException.#ctor">
+            <summary>Initialise une nouvelle instance de shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException.#ctor(Navegar.Libs.Exceptions.ViewModelHistoryTypeException)">
+            <summary>Initialise un nouveau shim pour l&apos;instance donnée</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException.AllInstances">
+            <summary>Définir des shims pour tous les membres des instances</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException.BehaveAsCurrent">
+            <summary>Attribue le comportement &apos;Current&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException.BehaveAsNotImplemented">
+            <summary>Attribue le comportement &apos;NotImplemented&apos; à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException.Behavior">
+            <summary>Attribue le comportement à toutes les méthodes du type ayant fait l&apos;objet d&apos;un shim</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Relie les membres de l&apos;interface au shim.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.ShimViewModelHistoryTypeException.ConstructorString">
+            <summary>Définit le shim de ViewModelHistoryTypeException.ViewModelHistoryTypeException(String type)</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException">
+            <summary>Type stub de Navegar.Libs.Exceptions.FrameNavigationException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.AttachBackingFieldToHelpLink">
+            <summary>Attache les délégués pour émuler StubFrameNavigationException.HelpLink en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.AttachBackingFieldToSource">
+            <summary>Attache les délégués pour émuler StubFrameNavigationException.Source en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.Data">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.DataGet">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.GetBaseException">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.GetBaseException01">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.HelpLink">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.HelpLinkGet">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.HelpLinkSetString">
+            <summary>Définit le stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubFrameNavigationException</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.Message">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.MessageGet">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.Source">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.SourceGet">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.SourceSetString">
+            <summary>Définit le stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.StackTrace">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.StackTraceGet">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.ToString">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFrameNavigationException.ToString01">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException">
+            <summary>Type stub de Navegar.Libs.Exceptions.FunctionToLoadNavigationException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.#ctor(System.String,System.String)">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.AttachBackingFieldToHelpLink">
+            <summary>Attache les délégués pour émuler StubFunctionToLoadNavigationException.HelpLink en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.AttachBackingFieldToSource">
+            <summary>Attache les délégués pour émuler StubFunctionToLoadNavigationException.Source en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.Data">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.DataGet">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.GetBaseException">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.GetBaseException01">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.HelpLink">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.HelpLinkGet">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.HelpLinkSetString">
+            <summary>Définit le stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubFunctionToLoadNavigationException</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.Message">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.MessageGet">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.Source">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.SourceGet">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.SourceSetString">
+            <summary>Définit le stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.StackTrace">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.StackTraceGet">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.ToString">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubFunctionToLoadNavigationException.ToString01">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException">
+            <summary>Type stub de Navegar.Libs.Exceptions.HistoryNavigationException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.AttachBackingFieldToHelpLink">
+            <summary>Attache les délégués pour émuler StubHistoryNavigationException.HelpLink en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.AttachBackingFieldToSource">
+            <summary>Attache les délégués pour émuler StubHistoryNavigationException.Source en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.Data">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.DataGet">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.GetBaseException">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.GetBaseException01">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.HelpLink">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.HelpLinkGet">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.HelpLinkSetString">
+            <summary>Définit le stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubHistoryNavigationException</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.Message">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.MessageGet">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.Source">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.SourceGet">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.SourceSetString">
+            <summary>Définit le stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.StackTrace">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.StackTraceGet">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.ToString">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubHistoryNavigationException.ToString01">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.StubNavigationException">
+            <summary>Type stub de Navegar.Libs.Exceptions.NavigationException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNavigationException.#ctor(System.Exception)">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNavigationException.AttachBackingFieldToHelpLink">
+            <summary>Attache les délégués pour émuler StubNavigationException.HelpLink en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNavigationException.AttachBackingFieldToSource">
+            <summary>Attache les délégués pour émuler StubNavigationException.Source en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNavigationException.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNavigationException.Data">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.DataGet">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNavigationException.GetBaseException">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.GetBaseException01">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNavigationException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNavigationException.HelpLink">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.HelpLinkGet">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.HelpLinkSetString">
+            <summary>Définit le stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNavigationException.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubNavigationException</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNavigationException.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNavigationException.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNavigationException.Message">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.MessageGet">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNavigationException.Source">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.SourceGet">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.SourceSetString">
+            <summary>Définit le stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNavigationException.StackTrace">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.StackTraceGet">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNavigationException.ToString">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNavigationException.ToString01">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException">
+            <summary>Type stub de Navegar.Libs.Exceptions.NotImplementedForCurrentPlatformException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.#ctor">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.AttachBackingFieldToHelpLink">
+            <summary>Attache les délégués pour émuler StubNotImplementedForCurrentPlatformException.HelpLink en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.AttachBackingFieldToSource">
+            <summary>Attache les délégués pour émuler StubNotImplementedForCurrentPlatformException.Source en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.Data">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.DataGet">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.GetBaseException">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.GetBaseException01">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.HelpLink">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.HelpLinkGet">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.HelpLinkSetString">
+            <summary>Définit le stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubNotImplementedForCurrentPlatformException</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.Message">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.MessageGet">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.Source">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.SourceGet">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.SourceSetString">
+            <summary>Définit le stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.StackTrace">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.StackTraceGet">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.ToString">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubNotImplementedForCurrentPlatformException.ToString01">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException">
+            <summary>Type stub de Navegar.Libs.Exceptions.TypeObjectIsNotIncorrectException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.#ctor(System.String)">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.AttachBackingFieldToHelpLink">
+            <summary>Attache les délégués pour émuler StubTypeObjectIsNotIncorrectException.HelpLink en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.AttachBackingFieldToSource">
+            <summary>Attache les délégués pour émuler StubTypeObjectIsNotIncorrectException.Source en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.Data">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.DataGet">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.GetBaseException">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.GetBaseException01">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.HelpLink">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.HelpLinkGet">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.HelpLinkSetString">
+            <summary>Définit le stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubTypeObjectIsNotIncorrectException</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.Message">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.MessageGet">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.Source">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.SourceGet">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.SourceSetString">
+            <summary>Définit le stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.StackTrace">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.StackTraceGet">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.ToString">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubTypeObjectIsNotIncorrectException.ToString01">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException">
+            <summary>Type stub de Navegar.Libs.Exceptions.ViewModelHistoryTypeException</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.#ctor(System.String)">
+            <summary>Initialise une nouvelle instance</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.AttachBackingFieldToHelpLink">
+            <summary>Attache les délégués pour émuler StubViewModelHistoryTypeException.HelpLink en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.AttachBackingFieldToSource">
+            <summary>Attache les délégués pour émuler StubViewModelHistoryTypeException.Source en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.CallBase">
+            <summary>Obtient ou définit une valeur qui indique si la méthode de base doit être appelée à la place du comportement de secours</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.Data">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.DataGet">
+            <summary>Définit le stub de Exception.get_Data()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.GetBaseException">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.GetBaseException01">
+            <summary>Définit le stub de Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Définit le stub de Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.HelpLink">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.HelpLinkGet">
+            <summary>Définit le stub de Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.HelpLinkSetString">
+            <summary>Définit le stub de Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.InitializeStub">
+            <summary>Initialise une nouvelle instance de type StubViewModelHistoryTypeException</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.InstanceBehavior">
+            <summary>Obtient ou définit le comportement de l&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.InstanceObserver">
+            <summary>Obtient ou définit l&apos;observateur d&apos;instance.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.Message">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.MessageGet">
+            <summary>Définit le stub de Exception.get_Message()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.Source">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.SourceGet">
+            <summary>Définit le stub de Exception.get_Source()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.SourceSetString">
+            <summary>Définit le stub de Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.StackTrace">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.StackTraceGet">
+            <summary>Définit le stub de Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.ToString">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Exceptions.Fakes.StubViewModelHistoryTypeException.ToString01">
+            <summary>Définit le stub de Exception.ToString()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Interfaces.Fakes.StubINavigation">
+            <summary>Type stub de Navegar.Libs.Interfaces.INavigation</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.#ctor">
+            <summary>Initialise une nouvelle instance de type StubINavigation</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.AttachBackingFieldToBackButtonPressed">
+            <summary>Attache les délégués pour émuler StubINavigation.BackButtonPressed en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.AttachBackingFieldToPreviewNavigate">
+            <summary>Attache les délégués pour émuler StubINavigation.PreviewNavigate en tant que propriété avec un champ de stockage.</summary>
+        </member>
+        <member name="P:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#BackButtonPressed">
+            <summary>Définit le stub de INavigation.get_BackButtonPressed()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.BackButtonPressedGet">
+            <summary>Définit le stub de INavigation.get_BackButtonPressed()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.BackButtonPressedSetFuncOfBoolean">
+            <summary>Définit le stub de INavigation.set_BackButtonPressed(Func`1&lt;Boolean&gt; value)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.CanGoBack">
+            <summary>Définit le stub de INavigation.CanGoBack()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.CancelNavigation">
+            <summary>Définit le stub de INavigation.CancelNavigation()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.Clear">
+            <summary>Définit le stub de INavigation.Clear()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#CurrentPlatform">
+            <summary>Définit le stub de INavigation.get_CurrentPlatform()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.CurrentPlatformGet">
+            <summary>Définit le stub de INavigation.get_CurrentPlatform()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.Dispose">
+            <summary>Définit le stub de IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.GetTypeViewModelToBack">
+            <summary>Définit le stub de INavigation.GetTypeViewModelToBack()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.GetViewModelCurrent">
+            <summary>Définit le stub de INavigation.GetViewModelCurrent()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.GetViewModelInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>Définit les stubs de GetViewModelInstance()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.GoBack">
+            <summary>Définit le stub de INavigation.GoBack()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.GoBackStringObjectArray">
+            <summary>Définit le stub de INavigation.GoBack(String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#HasBackButton">
+            <summary>Définit le stub de INavigation.get_HasBackButton()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.HasBackButtonGet">
+            <summary>Définit le stub de INavigation.get_HasBackButton()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.InitializeRootFrameObject">
+            <summary>Définit le stub de INavigation.InitializeRootFrame(Object rootFrame)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.InitializeRootFrameOf2``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object})">
+            <summary>Définit les stubs de InitializeRootFrame()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#CanGoBack">
+            <summary>Définit le stub de INavigation.CanGoBack()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#CancelNavigation">
+            <summary>Définit le stub de INavigation.CancelNavigation()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#Clear">
+            <summary>Définit le stub de INavigation.Clear()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#GetTypeViewModelToBack">
+            <summary>Définit le stub de INavigation.GetTypeViewModelToBack()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#GetViewModelCurrent">
+            <summary>Définit le stub de INavigation.GetViewModelCurrent()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#GetViewModelInstance``1">
+            <summary>Définit le stub de INavigation.GetViewModelInstance()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#GoBack">
+            <summary>Définit le stub de INavigation.GoBack()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#GoBack(System.String,System.Object[])">
+            <summary>Définit le stub de INavigation.GoBack(String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#InitializeRootFrame(System.Object)">
+            <summary>Définit le stub de INavigation.InitializeRootFrame(Object rootFrame)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#InitializeRootFrame``2">
+            <summary>Définit le stub de INavigation.InitializeRootFrame()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#NavigateModalTo``1(GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigation.NavigateModalTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#NavigateTo``1(System.Object[])">
+            <summary>Définit le stub de INavigation.NavigateTo(Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#NavigateTo``1(System.Boolean,System.Object[])">
+            <summary>Définit le stub de INavigation.NavigateTo(Boolean newInstance, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#NavigateTo``1(GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigation.NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#NavigateTo``1(System.Object[],System.String,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigation.NavigateTo(Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#NavigateTo``1(GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigation.NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#RegisterBackPressedAction``1(System.Func{System.Boolean})">
+            <summary>Définit le stub de INavigation.RegisterBackPressedAction(Func`1&lt;Boolean&gt; func)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#RegisterView``2">
+            <summary>Définit le stub de INavigation.RegisterView()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#RegisterView``2(Navegar.Libs.Enums.BackButtonViewEnum)">
+            <summary>Définit le stub de INavigation.RegisterView(BackButtonViewEnum backVirtualButton)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#ShowVirtualBackButton(System.Boolean,System.Boolean)">
+            <summary>Définit le stub de INavigation.ShowVirtualBackButton(Boolean visible, Boolean force)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.NavigateModalToOf1ViewModelBaseObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit les stubs de NavigateModalTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.NavigateToOf1BooleanObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Boolean,System.Object[],System.String})">
+            <summary>Définit les stubs de NavigateTo(Boolean newInstance, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.NavigateToOf1ObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object[],System.String})">
+            <summary>Définit les stubs de NavigateTo(Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.NavigateToOf1ObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit les stubs de NavigateTo(Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.NavigateToOf1ViewModelBaseObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.Boolean,System.String})">
+            <summary>Définit les stubs de NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.NavigateToOf1ViewModelBaseObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit les stubs de NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="P:Navegar.Libs.Interfaces.Fakes.StubINavigation.Navegar#Libs#Interfaces#INavigation#PreviewNavigate">
+            <summary>Définit le stub de INavigation.get_PreviewNavigate()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.PreviewNavigateGet">
+            <summary>Définit le stub de INavigation.get_PreviewNavigate()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.PreviewNavigateSetPreNavigateDelegateOfViewModelBase">
+            <summary>Définit le stub de INavigation.set_PreviewNavigate(PreNavigateDelegate`1&lt;ViewModelBase&gt; value)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.RegisterBackPressedActionOf1FuncOfBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{System.Boolean}})">
+            <summary>Définit les stubs de RegisterBackPressedAction(Func`1&lt;Boolean&gt; func)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.RegisterViewOf2``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Définit les stubs de RegisterView()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.RegisterViewOf2BackButtonViewEnum``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Navegar.Libs.Enums.BackButtonViewEnum})">
+            <summary>Définit les stubs de RegisterView(BackButtonViewEnum backVirtualButton)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigation.ShowVirtualBackButtonBooleanBoolean">
+            <summary>Définit le stub de INavigation.ShowVirtualBackButton(Boolean visible, Boolean force)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigation.System#IDisposable#Dispose">
+            <summary>Définit le stub de IDisposable.Dispose()</summary>
+        </member>
+        <member name="T:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf">
+            <summary>Type stub de Navegar.Libs.Interfaces.INavigationWpf</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.#ctor">
+            <summary>Initialise une nouvelle instance de type StubINavigationWpf</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.CanGoBack">
+            <summary>Définit le stub de INavigationWpf.CanGoBack()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Clear">
+            <summary>Définit le stub de INavigationWpf.Clear()</summary>
+        </member>
+        <member name="P:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#CurrentPlatform">
+            <summary>Définit le stub de INavigationWpf.get_CurrentPlatform()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.CurrentPlatformGet">
+            <summary>Définit le stub de INavigationWpf.get_CurrentPlatform()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.GenerateMainViewModelInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action)">
+            <summary>Définit les stubs de GenerateMainViewModelInstance()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.GetMainViewModelInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>Définit les stubs de GetMainViewModelInstance()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.GetTypeViewModelToBack">
+            <summary>Définit le stub de INavigationWpf.GetTypeViewModelToBack()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.GetViewModelCurrent">
+            <summary>Définit le stub de INavigationWpf.GetViewModelCurrent()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.GetViewModelInstanceOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase})">
+            <summary>Définit les stubs de GetViewModelInstance()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.GoBack">
+            <summary>Définit le stub de INavigationWpf.GoBack()</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.GoBackStringObjectArray">
+            <summary>Définit le stub de INavigationWpf.GoBack(String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#CanGoBack">
+            <summary>Définit le stub de INavigationWpf.CanGoBack()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#Clear">
+            <summary>Définit le stub de INavigationWpf.Clear()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#GenerateMainViewModelInstance``1">
+            <summary>Définit le stub de INavigationWpf.GenerateMainViewModelInstance()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#GetMainViewModelInstance``1">
+            <summary>Définit le stub de INavigationWpf.GetMainViewModelInstance()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#GetTypeViewModelToBack">
+            <summary>Définit le stub de INavigationWpf.GetTypeViewModelToBack()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#GetViewModelCurrent">
+            <summary>Définit le stub de INavigationWpf.GetViewModelCurrent()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#GetViewModelInstance``1">
+            <summary>Définit le stub de INavigationWpf.GetViewModelInstance()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#GoBack">
+            <summary>Définit le stub de INavigationWpf.GoBack()</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#GoBack(System.String,System.Object[])">
+            <summary>Définit le stub de INavigationWpf.GoBack(String functionToLoad, Object[] parametersFunction)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo``1(System.Object[])">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo``1(System.Boolean,System.Object[])">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Boolean newInstance, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo(System.Type,System.Object[])">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo``1(GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo(System.Type,System.Boolean,System.Object[])">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, Boolean newInstance, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo(System.Type,GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, ViewModelBase currentInstance, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo``1(System.Object[],System.String,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo``1(GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo(System.Type,System.Object[],System.String,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.Navegar#Libs#Interfaces#INavigationWpf#NavigateTo(System.Type,GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean)">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToOf1BooleanObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Boolean,System.Object[],System.String})">
+            <summary>Définit les stubs de NavigateTo(Boolean newInstance, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToOf1ObjectArray``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object[],System.String})">
+            <summary>Définit les stubs de NavigateTo(Object[] parametersViewModel)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToOf1ObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit les stubs de NavigateTo(Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToOf1ViewModelBaseObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.Boolean,System.String})">
+            <summary>Définit les stubs de NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="M:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToOf1ViewModelBaseObjectArrayStringObjectArrayBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{GalaSoft.MvvmLight.ViewModelBase,System.Object[],System.String,System.Object[],System.Boolean,System.String})">
+            <summary>Définit les stubs de NavigateTo(ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToTypeBooleanObjectArray">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, Boolean newInstance, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToTypeObjectArray">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, Object[] parametersViewModel)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToTypeObjectArrayStringObjectArrayBoolean">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToTypeViewModelBaseObjectArrayBoolean">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, ViewModelBase currentInstance, Object[] parametersViewModel, Boolean newInstance)</summary>
+        </member>
+        <member name="F:Navegar.Libs.Interfaces.Fakes.StubINavigationWpf.NavigateToTypeViewModelBaseObjectArrayStringObjectArrayBoolean">
+            <summary>Définit le stub de INavigationWpf.NavigateTo(Type TTo, ViewModelBase currentInstance, Object[] parametersViewModel, String functionToLoad, Object[] parametersFunction, Boolean newInstance)</summary>
+        </member>
+    </members>
+</doc>

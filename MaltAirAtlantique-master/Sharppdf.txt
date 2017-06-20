@@ -1,0 +1,40 @@
+public Document CreateDocument()
+{
+  // Create a new MigraDoc document
+  this.document = new Document();
+  this.document.Info.Title = "raport";
+  this.document.Info.Subject = "incident de formation";
+  this.document.Info.Author = "Adrien LG";
+&nbsp;
+  DefineStyles();
+&nbsp;
+  CreatePage();
+&nbsp;
+  FillContent();
+&nbsp;
+  return this.document;
+}
+void DefineStyles()
+{
+  Style style = this.document.Styles["Normal"];
+
+  style.Font.Name = "Arial";
+&nbsp;
+  style = this.document.Styles[StyleNames.Header];
+  style.ParagraphFormat.AddTabStop("16cm", TabAlignment.Right);
+&nbsp;
+  style = this.document.Styles[StyleNames.Footer];
+  style.ParagraphFormat.AddTabStop("8cm", TabAlignment.Center);
+&nbsp;
+
+  style = this.document.Styles.AddStyle("Table", "Normal");
+  style.Font.Name = "Verdana";
+  style.Font.Name = "Times New Roman";
+  style.Font.Size = 9;
+&nbsp;
+
+  style = this.document.Styles.AddStyle("Reference", "Normal");
+  style.ParagraphFormat.SpaceBefore = "5mm";
+  style.ParagraphFormat.SpaceAfter = "5mm";
+  style.ParagraphFormat.TabStops.AddTabStop("16cm", TabAlignment.Right);
+}

@@ -1,0 +1,32 @@
+﻿<Page x:Class="test.test"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:test"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="test">
+
+    <Grid Margin="0,0,2,1">
+        <Menu IsMainMenu="True" Background="White" Height="23" VerticalAlignment="Top" FontFamily="Stencil" Foreground="Red" Margin="21,10,19,0" HorizontalAlignment="Center" BorderBrush="Black" FontSize="21.333">
+            <MenuItem Header="_Acceuil"  />
+            <MenuItem Header="_Employee" FontSize="21.333" Background="White" RenderTransformOrigin="0.479,1.087" />
+            <MenuItem Header="_Formation" />
+            <MenuItem Header="_Session" IsEnabled="False" />
+        </Menu>
+        <ListView x:Name="listViewSession" Margin="10,116,10,10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="buAjouterSession" Content="" HorizontalAlignment="Left" Margin="416,74,0,0" VerticalAlignment="Top" Width="64" Height="37" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/MaltAirAtlantique;component/Src/logo/signe +.jpg" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="recherche" HorizontalAlignment="Left" Height="28" Margin="10,83,0,0" TextWrapping="Wrap" Text="Recherche...." VerticalAlignment="Top" Width="155"/>
+    </Grid>
+</Page>

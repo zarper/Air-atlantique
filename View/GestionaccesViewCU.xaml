@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="MaltAirAtlantique.View.GestionaccesViewCU.xaml"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MaltAirAtlantique.View"
+             mc:Ignorable="d" 
+             xmlns:vm="clr-namespace:MaltAirAtlantique.ViewModel"
+             xmlns:design="clr-namespace:MaltAirAtlantique.ViewModel.Design"
+             d:DesignHeight="400" d:DesignWidth="600">
+
+    <UserControl.DataContext>
+        <vm:GestionDroitEmployeViewModel/>
+    </UserControl.DataContext>
+
+    <d:DesignProperties.DataContext>
+        <design:DesignGestionDroitEmploye/>
+    </d:DesignProperties.DataContext>
+
+    <UserControl.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontStyle" Value="Italic" />
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <!-- Template for button style -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <!-- Content handles within a border -->
+                        <Border x:Name="bdr" CornerRadius="10" Margin="3,0,1,3" BorderThickness="1" BorderBrush="black" Background="white">
+                            <!-- ContentPresenter properties. Set the content source as the content from each control define below -->
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Content" TextBlock.FontSize="9" />
+                        </Border>
+                        <!-- Required triggers define here -->
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="bdr" Property="Background" Value="DarkGray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="62*"/>
+            <RowDefinition Height="279*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="10,25.155,10,10" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Background="Azure" Opacity="0.7" Height="214" Margin="192,50,192,-21.155" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="LabelMatricule" Content="Matricule" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto"  FontSize="12"   Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontStyle="Italic" Margin="5"/>
+                <TextBox x:Name="MatriculeEmployee" Grid.Row="0" VerticalAlignment="Center" FontSize="12" HorizontalAlignment="Center" Width="auto" Height="auto" MinWidth="100" TextWrapping="Wrap" Text="{Binding EmployeeResultat.Matricule}" Grid.Column="1" Margin="5"/>
+                <Label x:Name="LabelNom" Content="Nom" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto"  FontSize="12"   Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontStyle="Italic" Margin="5"/>
+                <TextBox x:Name="NomEmployee" Grid.Row="1" VerticalAlignment="Center" FontSize="12" HorizontalAlignment="Center" Width="auto" Height="auto" MinWidth="100" TextWrapping="Wrap" Text="{Binding EmployeeResultat.Nom}" Grid.Column="1" Margin="5"/>
+                <Label x:Name="LabelPrenom" Grid.Row="2" Content="Prénom" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto"  FontSize="12"   Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontStyle="Italic" Margin="5"/>
+                <TextBox x:Name="PrenomComployee" Grid.Row="2" VerticalAlignment="Center" FontSize="12" HorizontalAlignment="Center" Width="auto" Height="auto" MinWidth="100" TextWrapping="Wrap" Text="{Binding EmployeeResultat.Prenom}" Grid.Column="1" Margin="5"/>
+                <Label x:Name="LabelPoste" Grid.Row="3" Content="Poste" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto"  FontSize="12"   Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontStyle="Italic" Margin="5"/>
+                <ComboBox x:Name="comboBox" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" ItemsSource="{Binding ListePoste}" DisplayMemberPath="Nom"  SelectedItem="{Binding PosteConcerne}" Width="100"/>
+                <Label x:Name="LabelSecurite" Grid.Row="3" Content="Droits" HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto"  FontSize="12"   Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontStyle="Italic" Margin="16,39,16,-23"/>
+                <RadioButton x:Name="radioButton1" Content="Lecture" Grid.Column="1" HorizontalAlignment="Left" Margin="10,53,0,-9" Grid.Row="3" VerticalAlignment="Top"/>
+                <RadioButton x:Name="radioButton2" Content="Écriture" Grid.Column="1" HorizontalAlignment="Left" Margin="10,68,0,-22" Grid.Row="3" VerticalAlignment="Top"/>
+                <RadioButton x:Name="radioButton3" Content="Modification" Grid.Column="1" HorizontalAlignment="Left" Margin="10,83,0,-35" Grid.Row="3" VerticalAlignment="Top"/>
+
+
+
+            </Grid>
+
+        </Grid>
+        <Label x:Name="label" Content="Gestion des droits des utilisateurs" VerticalAlignment="Center" HorizontalAlignment="Center"  Width="auto" Height="auto" Background="Azure" Opacity="0.7" FontSize="21.333"   Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontStyle="Italic"/>
+        <Menu x:Name="menu"   Grid.Row="4"  Background="Azure" FontFamily="Stencil" Foreground="Red" Height="auto" VerticalAlignment="Center" BorderBrush="Black" FontSize="14" DataContext="{Binding}" Width="auto" HorizontalAlignment="Center" Opacity="0.7" Margin="5">
+            <MenuItem x:Name="Creer" Header="_Ajouter"  Command="{Binding AjouterEmployeeCommand}" BorderBrush="Red" FontFamily="Tahoma" />
+        </Menu>
+    </Grid>
+</UserControl>
